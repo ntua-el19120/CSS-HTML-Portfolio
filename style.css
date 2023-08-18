@@ -40,6 +40,7 @@ color: aliceblue;
 
 
 .third-part{
+
     font-family: 'Bricolage Grotesque', sans-serif;
 
 }
@@ -53,7 +54,26 @@ span{
 }
 
 .view{
-    background-color: pink;
-    color: white; 
-    border: none;  
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);    color: white; 
+    border: none;
+    width: 3cm;
+    height: 1cm;  
 }
+.skills-title {
+    background: -webkit-linear-gradient(rgba(255, 215, 185, 0.91), rgba(223, 159, 247, 0.8) 93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        display: inline;
+    padding: 0 10px;
+  }
+
+  #contact h5,
+  #contact .nav-link {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: white !important; /* Set the text color to white with higher specificity */
+  }
+
+  #contact .nav-link:hover {
+    font-family: 'Bricolage Grotesque', sans-serif;
+   color: #f0f0f0 !important; /* Change link color on hover with higher specificity */
+  }
